@@ -1,13 +1,52 @@
-html, body{
-    height:100%
+
+.index
+.portfolio{
+    background-color: grey;
 }
-body {
-    display:flex;
-    flex-direction: column;
+
+body,
+.links{
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+
 }
-.content {
-    flex:1 0 auto;
+
+.pic{
+    float: left;
+    margin-right: 10px;
 }
-.footer {
-    flex-shrink: 0;
+
+.bio-header{
+    padding-top: 10px;
+    text-align: left;
+    color: #4aaaa5;
+    background-color: white;
+    font-size: 22px;
+  
+}
+
+.content{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding-bottom: 10px;
+    
+
+}
+
+.pic,
+.content,
+.bio-header{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.ind,
+body{
+    height: 100%;
+}
+
+.links{
+    width:900;
 }
