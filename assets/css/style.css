@@ -9,7 +9,7 @@
 }
 
 .top {
-    padding: 27px;
+    padding: 23px;
     background-color: #4aaaa5;
     position: fixed;
     top: 0;
@@ -22,11 +22,11 @@
     background-color: white;
     position: fixed;
     top: 0;
-    padding: 15px;
+    padding: 10px;
     font-size: 15px;
     color: #9c9e9e;
     width: 100%;
-    margin-left: -250px;
+    margin-left: -240px;
 
 }
 
@@ -196,6 +196,12 @@ footer{
     border: #cccccc solid 1px;
     margin: 20px;
     font-size: 8px;
+}
+
+#nombre,
+#email {
+    margin-left: 10px;
+    font-size: 10px;
 }
 
 .empty {
