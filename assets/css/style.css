@@ -1,14 +1,45 @@
 
-.index
-.portfolio{
-    background-color: grey;
+.background
+{
+    background-color: #dddddd;
+}
+
+.header {
+    z-index: 4;
+}
+
+.top {
+    padding: 27px;
+    background-color: #4aaaa5;
+    position: fixed;
+    top: 0;
+    color: white;
+    font-size: 20px;
+    z-index: 5;
+}
+
+.white {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    padding: 15px;
+    font-size: 15px;
+    color: #9c9e9e;
+    width: 100%;
+    margin-left: -250px;
+
+}
+
+#trip {
+    margin-left: 1030px;
 }
 
 body,
 .links{
     background-color: white;
     width: 960px;
-    margin: 0 auto;
+    margin: 100px 100px;
+    
 
 }
 
@@ -17,12 +48,16 @@ body,
     margin-right: 10px;
 }
 
-.bio-header{
-    padding-top: 10px;
+h1{
+
     text-align: left;
+    padding: 5px;
     color: #4aaaa5;
     background-color: white;
     font-size: 22px;
+    border-bottom: #cccccc solid;
+    margin-left: 10px;
+
   
 }
 
@@ -30,23 +65,153 @@ body,
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
     padding-bottom: 10px;
-    
 
 }
 
 .pic,
-.content,
-.bio-header{
-    padding-left: 10px;
-    padding-right: 10px;
+.content {
+    margin-left: 10px;
+    text-align: left;
 }
 
 
-.ind,
 body{
     height: 100%;
 }
 
+.page {
+    margin-left: 250px;
+}
+
 .links{
-    width:900;
+    width: 900px;
+    color:#4aaaa5;
+    margin: 90px 100px;
+    z-index: 1; 
+}
+ 
+.pro1{
+    float: left;
+    width: 50;
+    padding-right: 10px;
+    margin-left: 20px;
+}
+
+.box1 {
+    position: absolute; 
+    float: left;
+    
+}
+
+.pro2{
+    float: left;
+    align-content: left;
+    margin-right: 10px;
+}
+
+.box2 {
+    position: absolute;
+}
+.pro3{
+    float: left;
+    width: 50;
+    padding-right: 10px;
+    margin-left: 20px;
+}
+
+.box3 {
+    position: absolute;
+    float: left;
+}
+
+.pro4{
+    float: left;
+    align-content: left;
+    margin-right: 10px;
+}
+
+.box4 
+  
+.pro5 {
+    float: left;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+.box5 {
+    position: absolute;
+}
+
+footer{
+    background-color: gray;
+    border-top: 8px solid #4aaaa5;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin-left: -250px;
+    }
+
+.head {
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+  
+.pro1,
+.pro2,
+.pro3,
+.pro4,
+.pro5 {
+    z-index: 2;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {  
+    padding: 20px;
+    background-color: darkblue;
+    z-index: 3;
+    width: 210px;
+    margin-left: 20px;
+    color: white;
+    text-align: center;
+}
+
+.links,
+.contact {
+    margin-left: 225px;
+    
+}
+
+.cat {
+    margin: 20px;
+    color: #777777;
+    padding-top: 2px;
+}
+
+.name {
+    border: #cccccc solid 1px;
+    margin: 20px;
+    font-size: 8px;
+}
+
+.empty {
+    border: #cccccc solid 1px;
+    margin: 20px;
+    padding: 10px;
+    padding-bottom: 150px;
+}
+
+.submit {
+    padding: 2px;
+    margin: 25px;
+    width: 90px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+
 }
