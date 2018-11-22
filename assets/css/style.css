@@ -1,8 +1,8 @@
 
-.background
-{
+html {
     background-color: #dddddd;
 }
+
 
 .header {
     z-index: 4;
@@ -18,7 +18,7 @@
     z-index: 5;
 }
 
-.white {
+#white {
     background-color: white;
     position: fixed;
     top: 0;
@@ -26,21 +26,35 @@
     font-size: 15px;
     color: #9c9e9e;
     width: 100%;
-    margin-left: -240px;
+    margin-left: -300px;
+
+}
+
+#white2 {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    font-size: 15px;
+    color: #9c9e9e;
+    width: 100%;
+    margin-left: -250px;
 
 }
 
 #trip {
-    margin-left: 1030px;
+    margin-left: 1090px;
 }
 
-body,
-.links{
+#trip2 {
+    margin-left: 1040px;
+}
+
+body {
     background-color: white;
     width: 960px;
-    margin: 100px 100px;
+    margin: 100px 300px;
     
-
 }
 
 .pic{
@@ -57,7 +71,6 @@ h1{
     font-size: 22px;
     border-bottom: #cccccc solid;
     margin-left: 10px;
-
   
 }
 
@@ -70,7 +83,7 @@ h1{
 
 .pic,
 .content {
-    margin-left: 10px;
+    margin: 0px 10px;
     text-align: left;
 }
 
@@ -81,65 +94,136 @@ body{
 
 .page {
     margin-left: 250px;
+    width: 960px;
+
 }
 
 .links{
-    width: 900px;
+    width: 1000px;
     color:#4aaaa5;
-    margin: 90px 100px;
+    margin: 85px 150px;
     z-index: 1; 
 }
- 
-.pro1{
+
+
+.cube1 {
     float: left;
-    width: 50;
-    padding-right: 10px;
+    width: 33%;
     margin-left: 20px;
+    /* padding-bottom: 10px; */
 }
 
-.box1 {
-    position: absolute; 
-    float: left;
+.pro1{
+    position: relative;
+    /* padding-bottom: 5px; */
     
 }
 
-.pro2{
+.box1 {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 210px;
+    height: 15px;
+    position: absolute; 
+    top: 350px;
+    
+}
+
+.cube2 {
     float: left;
-    align-content: left;
-    margin-right: 10px;
+    width: 33%;
+    margin-left: 20px;
+}
+
+.pro2{
+    position: relative;
+    
 }
 
 .box2 {
-    position: absolute;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 210px;
+    height: 15px;
+    position: absolute; 
+    top: 350px;
+    
 }
-.pro3{
+
+.cube3 {
     float: left;
-    width: 50;
-    padding-right: 10px;
+    width: 33%;
     margin-left: 20px;
+    padding-top: 25px;
+}
+
+.pro3{
+    position: relative;
+    
 }
 
 .box3 {
-    position: absolute;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 210px;
+    height: 15px;
+    position: absolute; 
+    top: 628px;
+    
+}
+
+.cube4 {
     float: left;
+    width: 33%;
+    margin-left: 20px;
+    padding-top: 25px;
 }
 
 .pro4{
-    float: left;
-    align-content: left;
-    margin-right: 10px;
+    position: relative;
+    
 }
 
-.box4 
-  
-.pro5 {
+.box4 {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 210px;
+    height: 15px;
+    position: absolute; 
+    top: 628px;
+    
+}
+
+.cube5 {
     float: left;
+    width: 33%;
     margin-left: 20px;
-    padding-bottom: 10px;
+    padding-top: 25px;
+}
+
+.pro5{
+    position: relative;
+    
 }
 
 .box5 {
-    position: absolute;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 210px;
+    height: 15px;
+    position: absolute; 
+    top: 908px;
+    
 }
 
 footer{
@@ -149,16 +233,26 @@ footer{
     width: 100%;
     position: fixed;
     bottom: 0;
-    margin-left: -250px;
+    margin-left: -300px;
     }
 
+    #f2{
+        background-color: gray;
+        border-top: 8px solid #4aaaa5;
+        padding: 20px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        margin-left: -275px;
+        }
+
 .head {
-    padding: 15px;
-    margin-left: 10px;
+    padding: 15px 25px;
     margin-right: 10px; 
+    margin-bottom: 10px;
 }
   
-.pro1,
+/* .pro1,
 .pro2,
 .pro3,
 .pro4,
@@ -180,10 +274,25 @@ footer{
     text-align: center;
 }
 
-.links,
+.pro1,
+.pro2,
+.pro3, 
+.pro4 {
+    padding-bottom: 50px;
+} */
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+    padding-bottom: 50px;   
+}
+
+
+
 .contact {
-    margin-left: 225px;
-    
+    margin-left: 250px;
+    width: 850px;
 }
 
 .cat {
