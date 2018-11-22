@@ -19,41 +19,52 @@ html {
 }
 
 #white {
+    
     background-color: white;
     position: fixed;
     top: 0;
     padding: 10px;
     font-size: 15px;
-    color: #9c9e9e;
+    color: #ffffff;
     width: 100%;
     margin-left: -300px;
 
 }
 
 #white2 {
+
     background-color: white;
     position: fixed;
     top: 0;
     padding: 10px;
     font-size: 15px;
-    color: #9c9e9e;
+    color: #ffffff;
     width: 100%;
     margin-left: -250px;
 
 }
 
+p {
+    color: #777777;
+    
+}
+
 #trip {
-    margin-left: 1090px;
+    margin-left: 1075px;
+    color: #777777;
+    font-family: Georgia;
 }
 
 #trip2 {
-    margin-left: 1040px;
+    margin-left: 1025px;
+    font-family: Georgia;
 }
 
 body {
-    background-color: white;
+    background-color: #ffffff;
     width: 960px;
     margin: 100px 300px;
+    border: 3px solid #dddddd;
     
 }
 
@@ -95,6 +106,7 @@ body{
 .page {
     margin-left: 250px;
     width: 960px;
+    background-color: #ffffff;
 
 }
 
@@ -222,12 +234,12 @@ body{
     width: 210px;
     height: 15px;
     position: absolute; 
-    top: 908px;
+    top: px;
     
 }
 
 footer{
-    background-color: gray;
+    background-color: #666666;
     border-top: 8px solid #4aaaa5;
     padding: 20px;
     width: 100%;
@@ -237,13 +249,16 @@ footer{
     }
 
     #f2{
-        background-color: gray;
+        background-color: #666666;
         border-top: 8px solid #4aaaa5;
         padding: 20px;
         width: 100%;
         position: fixed;
         bottom: 0;
         margin-left: -275px;
+        text-align: center;
+        font-size: 10px;
+        color: #777777;
         }
 
 .head {
@@ -305,12 +320,15 @@ footer{
     border: #cccccc solid 1px;
     margin: 20px;
     font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #nombre,
 #email {
     margin-left: 10px;
     font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .empty {
